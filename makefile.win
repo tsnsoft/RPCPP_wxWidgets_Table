@@ -1,0 +1,43 @@
+# Project: RPCPP_wxWidgets_Table
+# Makefile created by Red Panda C++ 3.2.2958
+
+CXX      = "g++.exe"
+CC       = "gcc.exe"
+WINDRES  = "windres.exe"
+RM       = del /q /f
+CD       = cd /d
+LIBS     = "-LD:/Development/RedPanda-CPP/wxWidgets/lib/gcc_lib" "-Wl,--stack,12582912" "-LD:velopmentdPanda-CPPWidgetsbc_lib" "-mthreads" "-lwxmsw32ud_core" "-lwxbase32ud" "-lwxpngd" "-lwxjpegd" "-lwxtiffd" "-lwxzlibd" "-lwxregexud" "-lkernel32" "-luser32" "-lgdi32" "-lwinspool" "-lcomdlg32" "-ladvapi32" "-lshell32" "-lole32" "-loleaut32" "-luuid" "-lcomctl32" "-lwsock32" "-lodbc32" "-lshlwapi" "-lversion" "-loleacc" "-luxtheme" "-mwindows" "-lstdc++" "-finput-charset=utf-8"
+INCS     = "-ID:/Development/RedPanda-CPP/wxWidgets/include" "-ID:/Development/RedPanda-CPP/wxWidgets/lib/gcc_lib/mswud"
+CXXINCS  = "-ID:/Development/RedPanda-CPP/wxWidgets/include" "-ID:/Development/RedPanda-CPP/wxWidgets/lib/gcc_lib/mswud"
+CXXFLAGS = $(CXXINCS) "-g3" "-pipe" "-Wall" "-pipe" "-mthreads" "-D__GNUWIN32__" "-D__WXMSW__" "-DwxUSE_UNICODE" "-Wall" "-g" "-O0" "-ID:velopmentdPanda-CPPWidgetsclude" "-ID:velopmentdPanda-CPPWidgetsbc_libwud" "-D_DEBUG"
+CFLAGS   = $(INCS) "-g3" "-pipe" "-Wall" "-D_DEBUG"
+WINDRESFLAGS = 
+RES      = RPCPP_wxWidgets_Table_private.res
+OBJ      = controls.o main.o gui.o $(RES)
+BIN      = RPCPP_wxWidgets_Table.exe
+LINKOBJ  = "controls.o" "main.o" "gui.o" "RPCPP_wxWidgets_Table_private.res"
+CLEANOBJ = "controls.o" "main.o" "gui.o" "RPCPP_wxWidgets_Table_private.res" "RPCPP_wxWidgets_Table.exe"
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	-$(RM) $(CLEANOBJ) >NUL 2>&1
+
+RPCPP_wxWidgets_Table.exe: $(OBJ)
+
+	$(CXX) $(LINKOBJ) -o "RPCPP_wxWidgets_Table.exe" $(LIBS)
+
+controls.o: controls.cpp gui.h main.h
+	$(CXX) -c "controls.cpp" -o "controls.o" $(CXXFLAGS) 
+
+main.o: main.cpp gui.h main.h
+	$(CXX) -c "main.cpp" -o "main.o" $(CXXFLAGS) 
+
+gui.o: gui.cpp gui.h main.h
+	$(CXX) -c "gui.cpp" -o "gui.o" $(CXXFLAGS) 
+
+RPCPP_wxWidgets_Table_private.res: RPCPP_wxWidgets_Table_private.rc 
+	$(WINDRES) -i "RPCPP_wxWidgets_Table_private.rc" --input-format=rc -o "RPCPP_wxWidgets_Table_private.res" -O coff $(WINDRESFLAGS) 
+
