@@ -44,11 +44,11 @@ UseUTF8 = 1
 
 
 [Unit1]
-FileName = gui.cpp
-CompileCpp = 1
-Folder = Sources
-Compile = 1
-Link = 1
+FileName = main.h
+CompileCpp = 0
+Folder = Headers
+Compile = 0
+Link = 0
 Priority = 1000
 OverrideBuildCmd = 0
 BuildCmd = 
@@ -77,16 +77,16 @@ SyncProduct = 1
 
 
 [Unit2]
-FileName = main.h
+FileName = gui.fbp
 CompileCpp = 0
-Folder = Headers
+Folder = Others
 Compile = 0
 Link = 0
 Priority = 1000
 OverrideBuildCmd = 0
 BuildCmd = 
 FileEncoding = PROJECT
-RealEncoding = UTF-8
+RealEncoding = ASCII
 
 
 [Unit3]
@@ -116,20 +116,20 @@ RealEncoding = ASCII
 
 
 [Unit5]
-FileName = gui.fbp
-CompileCpp = 0
-Folder = Others
-Compile = 0
-Link = 0
+FileName = gui.cpp
+CompileCpp = 1
+Folder = Sources
+Compile = 1
+Link = 1
 Priority = 1000
 OverrideBuildCmd = 0
 BuildCmd = 
 FileEncoding = PROJECT
-RealEncoding = ASCII
+RealEncoding = UTF-8
 
 
 [Unit6]
-FileName = controls.cpp
+FileName = main.cpp
 Folder = Sources
 Compile = 1
 Link = 1
@@ -142,7 +142,7 @@ CompileCpp = 1
 
 
 [Unit7]
-FileName = main.cpp
+FileName = controls.cpp
 Folder = Sources
 Compile = 1
 Link = 1
