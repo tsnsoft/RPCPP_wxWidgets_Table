@@ -25,6 +25,7 @@ MainFrame::MainFrame(wxWindow* parent)
 : MainFrameBase(parent) {
 	wxInitAllImageHandlers();
 	this->SetIcon(wxIcon(tsnsoft_xpm)); // Устанавливаем иконку для формы
+    std::srand(std::time(nullptr)); // Инициализация генератора случайных чисел
 }
 
 MainFrame::~MainFrame() {

@@ -1,52 +1,12 @@
 [
     {
-        "caretX": 51,
-        "caretY": 8,
-        "filename": "D:/Projects/CppProjects/Programming_in_CPP_2025/Topic4/RPCPP_wxWidgets_Table/controls.cpp",
-        "focused": false,
-        "isOpen": true,
-        "left": 0,
-        "order": 0,
-        "top": 0
-    },
-    {
-        "caretX": 46,
-        "caretY": 16,
-        "filename": "D:/Projects/CppProjects/Programming_in_CPP_2025/Topic4/RPCPP_wxWidgets_Table/main.cpp",
+        "caretX": 80,
+        "caretY": 28,
+        "filename": "D:/Workspace/GitHub/Programming_in_CPP_2025/Topic4/RPCPP_wxWidgets_Table/main.cpp",
         "focused": true,
         "isOpen": true,
         "left": 0,
-        "order": 2,
-        "top": 225
-    },
-    {
-        "caretX": 1,
-        "caretY": 1,
-        "filename": "D:/Projects/CppProjects/Programming_in_CPP_2025/Topic4/RPCPP_wxWidgets_Table/gui.h",
-        "focused": false,
-        "isOpen": true,
-        "left": 0,
-        "order": 3,
-        "top": 0
-    },
-    {
-        "caretX": 1,
-        "caretY": 21,
-        "filename": "D:/Projects/CppProjects/Programming_in_CPP_2025/Topic4/RPCPP_wxWidgets_Table/main.h",
-        "focused": false,
-        "isOpen": true,
-        "left": 0,
-        "order": 4,
-        "top": 0
-    },
-    {
-        "caretX": 1,
-        "caretY": 1,
-        "filename": "D:/Projects/CppProjects/Programming_in_CPP_2025/Topic4/RPCPP_wxWidgets_Table/gui.cpp",
-        "focused": false,
-        "isOpen": true,
-        "left": 0,
-        "order": 1,
-        "top": 0
+        "order": 0,
+        "top": 375
     }
 ]

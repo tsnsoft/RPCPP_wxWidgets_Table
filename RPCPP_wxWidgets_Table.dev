@@ -44,16 +44,16 @@ UseUTF8 = 1
 
 
 [Unit1]
-FileName = gui.fbp
+FileName = gui.cpp
 CompileCpp = 1
-Folder = Others
-Compile = 0
-Link = 0
+Folder = Sources
+Compile = 1
+Link = 1
 Priority = 1000
 OverrideBuildCmd = 0
 BuildCmd = 
 FileEncoding = PROJECT
-RealEncoding = ASCII
+RealEncoding = UTF-8
 
 
 [VersionInfo]
@@ -77,45 +77,6 @@ SyncProduct = 1
 
 
 [Unit2]
-FileName = controls.cpp
-CompileCpp = 1
-Folder = Sources
-Compile = 1
-Link = 1
-Priority = 1000
-OverrideBuildCmd = 0
-BuildCmd = 
-FileEncoding = PROJECT
-RealEncoding = UTF-8
-
-
-[Unit3]
-FileName = main.cpp
-CompileCpp = 1
-Folder = Sources
-Compile = 1
-Link = 1
-Priority = 1000
-OverrideBuildCmd = 0
-BuildCmd = 
-FileEncoding = PROJECT
-RealEncoding = UTF-8
-
-
-[Unit4]
-FileName = gui.h
-CompileCpp = 0
-Folder = Headers
-Compile = 0
-Link = 0
-Priority = 1000
-OverrideBuildCmd = 0
-BuildCmd = 
-FileEncoding = PROJECT
-RealEncoding = UTF-8
-
-
-[Unit5]
 FileName = main.h
 CompileCpp = 0
 Folder = Headers
@@ -128,8 +89,47 @@ FileEncoding = PROJECT
 RealEncoding = UTF-8
 
 
+[Unit3]
+FileName = gui.h
+CompileCpp = 0
+Folder = Headers
+Compile = 0
+Link = 0
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit4]
+FileName = tsnsoft.xpm
+CompileCpp = 0
+Folder = Others
+Compile = 0
+Link = 0
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = ASCII
+
+
+[Unit5]
+FileName = gui.fbp
+CompileCpp = 0
+Folder = Others
+Compile = 0
+Link = 0
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = ASCII
+
+
 [Unit6]
-FileName = gui.cpp
+FileName = controls.cpp
 Folder = Sources
 Compile = 1
 Link = 1
@@ -142,16 +142,16 @@ CompileCpp = 1
 
 
 [Unit7]
-FileName = tsnsoft.xpm
-Folder = Others
-Compile = 0
-Link = 0
+FileName = main.cpp
+Folder = Sources
+Compile = 1
+Link = 1
 Priority = 1000
 OverrideBuildCmd = 0
 BuildCmd = 
 FileEncoding = PROJECT
-RealEncoding = ASCII
-CompileCpp = 0
+RealEncoding = UTF-8
+CompileCpp = 1
 
 
 [Unit8]
