@@ -44,11 +44,11 @@ UseUTF8 = 1
 
 
 [Unit1]
-FileName = main.h
-CompileCpp = 0
-Folder = Headers
-Compile = 0
-Link = 0
+FileName = gui.cpp
+CompileCpp = 1
+Folder = Sources
+Compile = 1
+Link = 1
 Priority = 1000
 OverrideBuildCmd = 0
 BuildCmd = 
@@ -77,8 +77,21 @@ SyncProduct = 1
 
 
 [Unit2]
+FileName = main.cpp
+CompileCpp = 1
+Folder = Sources
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit3]
 FileName = gui.fbp
-CompileCpp = 0
+CompileCpp = 1
 Folder = Others
 Compile = 0
 Link = 0
@@ -89,8 +102,21 @@ FileEncoding = PROJECT
 RealEncoding = ASCII
 
 
-[Unit3]
-FileName = gui.h
+[Unit4]
+FileName = controls.cpp
+CompileCpp = 1
+Folder = Sources
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+
+
+[Unit5]
+FileName = main.h
 CompileCpp = 0
 Folder = Headers
 Compile = 0
@@ -102,9 +128,21 @@ FileEncoding = PROJECT
 RealEncoding = UTF-8
 
 
-[Unit4]
-FileName = tsnsoft.xpm
+[Unit6]
+FileName = gui.h
+Folder = Headers
+Compile = 0
+Link = 0
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
 CompileCpp = 0
+
+
+[Unit7]
+FileName = tsnsoft.xpm
 Folder = Others
 Compile = 0
 Link = 0
@@ -113,44 +151,6 @@ OverrideBuildCmd = 0
 BuildCmd = 
 FileEncoding = PROJECT
 RealEncoding = ASCII
-
-
-[Unit5]
-FileName = gui.cpp
-CompileCpp = 1
-Folder = Sources
-Compile = 1
-Link = 1
-Priority = 1000
-OverrideBuildCmd = 0
-BuildCmd = 
-FileEncoding = PROJECT
-RealEncoding = UTF-8
-
-
-[Unit6]
-FileName = main.cpp
-Folder = Sources
-Compile = 1
-Link = 1
-Priority = 1000
-OverrideBuildCmd = 0
-BuildCmd = 
-FileEncoding = PROJECT
-RealEncoding = UTF-8
-CompileCpp = 1
-
-
-[Unit7]
-FileName = controls.cpp
-Folder = Sources
-Compile = 1
-Link = 1
-Priority = 1000
-OverrideBuildCmd = 0
-BuildCmd = 
-FileEncoding = PROJECT
-RealEncoding = UTF-8
 CompileCpp = 1
 
 

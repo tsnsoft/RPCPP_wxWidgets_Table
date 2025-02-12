@@ -1,22 +1,2 @@
 [
-    {
-        "caretX": 80,
-        "caretY": 28,
-        "filename": "D:/Workspace/GitHub/Programming_in_CPP_2025/Topic4/RPCPP_wxWidgets_Table/main.cpp",
-        "focused": false,
-        "isOpen": true,
-        "left": 0,
-        "order": 0,
-        "top": 675
-    },
-    {
-        "caretX": 17,
-        "caretY": 33,
-        "filename": "D:/Workspace/GitHub/Programming_in_CPP_2025/Topic4/RPCPP_wxWidgets_Table/controls.cpp",
-        "focused": true,
-        "isOpen": true,
-        "left": 0,
-        "order": 1,
-        "top": 450
-    }
 ]
